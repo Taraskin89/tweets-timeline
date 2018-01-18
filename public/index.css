@@ -1,0 +1,15 @@
+#chat_wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#message_area,#submit_area{
+    width: 700px;
+}
+
+#submit_area{
+    position: absolute;
+    bottom: 40px;
+}

@@ -1,0 +1,40 @@
+{
+  "name": "tweets-timeline",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babel": "^6.3.26",
+    "babel-core": "^6.4.5",
+    "babel-loader": "^6.2.1",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-2": "^6.3.13",
+    "babel-register": "^6.4.3",
+    "cosmicjs": "^2.0.0",
+    "express": "^4.13.3",
+    "lodash": "^4.0.0",
+    "node-uuid": "^1.4.7",
+    "react": "^0.14.1",
+    "react-bootstrap": "^0.28.2",
+    "react-dom": "^0.14.1",
+    "shorti": "^1.1.3",
+    "socket.io": "^1.3.7",
+    "socket.io-client": "^1.3.7",
+    "webpack": "^1.12.2"
+  },
+  "scripts": {
+    "start": "npm run prod",
+    "dev": "npm run webpack-dev-server",
+    "prod": "webpack -p && node app-entry.js",
+    "server": "nodemon app-entry.js",
+    "webpack-dev-server": "webpack-dev-server --hot --inline --devtool inline-source-map --history-api-fallback"
+  },
+  "author": "Taras Kredens <taras.kredens@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-react": "^6.3.13",
+    "react-hot-loader": "^4.0.0-beta.15",
+    "webpack-dev-server": "^1.12.1"
+  }
+}
