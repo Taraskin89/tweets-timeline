@@ -1,4 +1,4 @@
-## Twitter Timeline
+## Tweets Timeline
 ### Install
 Run the following commands to install the app:
 ```
